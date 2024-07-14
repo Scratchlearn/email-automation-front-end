@@ -1,0 +1,29 @@
+/* styles.css */
+.navbar-collapse {
+    justify-content: flex-end; /* Align navbar items to the right */
+  }
+  
+  .navbar-nav .nav-item {
+    margin-right: 10px; /* Adjust spacing between navbar items */
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-nav {
+      flex-direction: column; /* Stack items vertically for mobile view */
+       /* Center-align text in mobile view */
+    }
+    .navbar-nav .nav-item {
+      margin-right: 0; /* Reset margin for stacked items */
+      margin-bottom: 5px; /* Add spacing between stacked items */
+    }
+  }
+  
+  .navbar-nav .nav-link {
+    white-space: nowrap; /* Prevents text wrapping */
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-nav {
+      flex-direction: column; /* Stack items vertically for mobile view */
+    }
+  }
